@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="81d8c302-77d1-4668-bd3d-909b2f831abb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/trelloClone/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trelloClone/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trelloClone/app/_layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trelloClone/app/auth.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trelloClone/app/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trelloClone/constants/Colors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trelloClone/context/AuthContext.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trelloClone/types/enums.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trelloClone/utils/superbaseClient.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.expo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.expo/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trelloClone" beforeDir="false" afterPath="$PROJECT_DIR$/trelloClone" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trelloClone/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/trelloClone/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trelloClone/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/trelloClone/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trelloClone/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/trelloClone/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trelloClone/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/trelloClone/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/trelloClone/node_modules/expo-modules-autolinking/android/expo-gradle-plugin">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/trelloClone/node_modules/expo-modules-core/expo-module-gradle-plugin">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="expo-gradle-plugin" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/trelloClone" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$/trelloClone/node_modules/expo-modules-core/expo-module-gradle-plugin" gradleHome="$USER_HOME$/.gradle/wrapper/dists/gradle-8.14-bin/38aieal9i53h9rfe7vjup95b9/gradle-8.14" javaHome="$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-24.0.1/Contents/Home" gradleVersion="8.14">
+    <option name="jvmArguments">
+      <list>
+        <option value="-Dandroid.home=/Users/platonmatsinski/Library/Android/sdk" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="35z9L9nHj8YtK6LA1Wty0EoUoGo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/platonmatsinski/Documents/CrossPlatform/reactnative/trelloClone&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/platonmatsinski/Documents/CrossPlatform/reactnative/trelloClone/trelloClone/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/trelloClone" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.27397.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.27397.103" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81d8c302-77d1-4668-bd3d-909b2f831abb" name="Changes" comment="" />
+      <created>1764101974916</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1764101974916</updated>
+      <workItem from="1764101976010" duration="1964000" />
+      <workItem from="1764496455665" duration="871000" />
+      <workItem from="1764497342159" duration="270000" />
+      <workItem from="1764497625818" duration="3653000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
