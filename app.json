@@ -3,6 +3,7 @@
     "name": "trelloClone",
     "slug": "trelloClone",
     "version": "1.0.0",
+    "scheme": "trello-clone",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",

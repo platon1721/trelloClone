@@ -1,20 +1,39 @@
-import {StyleSheet, Text, View, Image, TouchableOpacity} from 'react-native';
+import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import {Colors} from "../constants/Colors"
 import {useSafeAreaInsets} from "react-native-safe-area-context";
 
 import * as WebBrowser from "expo-web-browser";
 
-import EmailAuthModal from "@/components/EmailAuthModal"
+import EmailAuthModal from "../components/EmailAuthModal"
+import {ModalType} from "../types/enums";
+import {useMemo, useRef, useState} from "react";
+import {BottomSheetModal, BottomSheetModalProvider} from "@gorhom/bottom-sheet";
 
 
 const Index = () => {
+
+
+    const {top} = useSafeAreaInsets();
+    const modalRef = useRef<BottomSheetModal>(null)
+    const [authType, setAuthType] = useState<ModalType | null>(null);
+    const snapPoints = useMemo(() => ["70%"], []);
 
     const openLink = async () => {
         await WebBrowser.openBrowserAsync("https://google.com");
     }
 
-    const {top} = useSafeAreaInsets();
+    const showModal = (type: ModalType)=> {
+        setAuthType(type);
+        modalRef.current?.present();
+    }
+
+    const closeModal = () => {
+        modalRef.current?.close();
+    }
+
     return (
+
+        <BottomSheetModalProvider>
         <View style={[styles.container , {paddingTop: top + 30}]}>
             <Image source={require("../assets/images/login/trello.png")} style={styles.logoImage}/>
             <Text style={[styles.introText, {paddingBottom: 10}]}>
@@ -23,12 +42,12 @@ const Index = () => {
             <View style={styles.bottomContainer}>
                 <TouchableOpacity
                     style={[styles.button, {backgroundColor: "white"}]}
-                    onPress={() => console.log("Login")}>
+                    onPress={() => showModal(ModalType.Login)}>
                     <Text style={[styles.btnText, {color: Colors.primary}]}>Log in</Text>
                 </TouchableOpacity>
                 <TouchableOpacity
                     style={[styles.button, {backgroundColor: Colors.primary}]}
-                    onPress={() => console.log("Register")}
+                    onPress={() => showModal(ModalType.SignUp)}
                 >
                     <Text style={[styles.btnText, {color: "white"}]}>Register</Text>
                 </TouchableOpacity>
@@ -48,6 +67,12 @@ const Index = () => {
                 </Text>
             </View>
         </View>
+            <BottomSheetModal
+                ref={modalRef}
+                snapPoints={snapPoints}>
+                <EmailAuthModal authType={authType} onBack={closeModal}/>
+            </BottomSheetModal>
+        </BottomSheetModalProvider>
     );
 };
 

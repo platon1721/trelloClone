@@ -1,4 +1,5 @@
 import {Stack} from "expo-router"
+import { GestureHandlerRootView } from "react-native-gesture-handler";
 
 const InitialLayout = () => {
     return (
@@ -10,7 +11,9 @@ const InitialLayout = () => {
 
 const RootLayoutNav = () => {
     return (
-        <InitialLayout/>
+        <GestureHandlerRootView>
+            <InitialLayout/>
+        </GestureHandlerRootView>
     );
 }
 
