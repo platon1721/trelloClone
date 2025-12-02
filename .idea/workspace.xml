@@ -5,29 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81d8c302-77d1-4668-bd3d-909b2f831abb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/trelloClone/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trelloClone/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trelloClone/app/_layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trelloClone/app/auth.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trelloClone/app/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trelloClone/constants/Colors.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trelloClone/context/AuthContext.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trelloClone/types/enums.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trelloClone/utils/superbaseClient.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.expo/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.expo/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trelloClone" beforeDir="false" afterPath="$PROJECT_DIR$/trelloClone" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trelloClone/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/trelloClone/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trelloClone/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/trelloClone/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trelloClone/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/trelloClone/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trelloClone/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/trelloClone/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants/Colors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constants/Colors.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/context/AuthContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/context/AuthContext.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/superbaseClient.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/superbaseClient.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/trelloClone/node_modules/expo-modules-autolinking/android/expo-gradle-plugin">
@@ -55,7 +50,7 @@
     </system>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/trelloClone" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$/trelloClone/node_modules/expo-modules-core/expo-module-gradle-plugin" gradleHome="$USER_HOME$/.gradle/wrapper/dists/gradle-8.14-bin/38aieal9i53h9rfe7vjup95b9/gradle-8.14" javaHome="$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-24.0.1/Contents/Home" gradleVersion="8.14">
@@ -81,7 +76,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/platonmatsinski/Documents/CrossPlatform/reactnative/trelloClone&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/platonmatsinski/Documents/CrossPlatform/reactnative/trelloClone/assets&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -90,11 +85,15 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/platonmatsinski/Documents/CrossPlatform/reactnative/trelloClone/trelloClone/node_modules/typescript/lib&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/platonmatsinski/Library/Application Support/JetBrains/IntelliJIdea2025.2/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/trelloClone" />
       <recent name="$PROJECT_DIR$" />
@@ -119,10 +118,16 @@
       <workItem from="1764496455665" duration="871000" />
       <workItem from="1764497342159" duration="270000" />
       <workItem from="1764497625818" duration="3653000" />
+      <workItem from="1764506264525" duration="8864000" />
+      <workItem from="1764600378658" duration="8111000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
