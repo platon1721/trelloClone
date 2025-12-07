@@ -2,14 +2,14 @@ import React from 'react';
 
 import {Text, View} from 'react-native';
 
-const Index = () => {
+const MyCards = () => {
     return (
         <View>
             <Text>
-                Hello Platon! Welcome to your boards.
+                My Cards
             </Text>
         </View>
     );
 };
 
-export default Index;
+export default MyCards;

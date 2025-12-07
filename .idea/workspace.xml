@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81d8c302-77d1-4668-bd3d-909b2f831abb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/(authenticated)/_layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(authenticated)/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(authenticated)/(tabs)/account.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(authenticated)/(tabs)/my-cards.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(authenticated)/(tabs)/notifications.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(authenticated)/(tabs)/search.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(authenticated)/(tabs)/boards/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(authenticated)/(tabs)/boards/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(authenticated)/(tabs)/boards/account.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(authenticated)/(tabs)/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(authenticated)/(tabs)/boards/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(authenticated)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(authenticated)/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(authenticated)/index.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/auth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/auth.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/EmailAuthModal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/EmailAuthModal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/context/AuthContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/context/AuthContext.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/superbaseClient.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/superbaseClient.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,33 +69,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/platonmatsinski/Documents/CrossPlatform/reactnative/trelloClone/assets&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/platonmatsinski/Library/Application Support/JetBrains/IntelliJIdea2025.2/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "dev/tabs__boars__account",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/platonmatsinski/Documents/CrossPlatform/reactnative/trelloClone/assets",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editing.templates",
+    "ts.external.directory.path": "/Users/platonmatsinski/Library/Application Support/JetBrains/IntelliJIdea2025.2/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/(authenticated)/(tabs)" />
       <recent name="$PROJECT_DIR$/trelloClone" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -119,7 +122,7 @@
       <workItem from="1764497625818" duration="3653000" />
       <workItem from="1764506264525" duration="8864000" />
       <workItem from="1764600378658" duration="15107000" />
-      <workItem from="1764676062619" duration="10328000" />
+      <workItem from="1764676062619" duration="15824000" />
     </task>
     <servers />
   </component>
