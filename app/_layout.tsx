@@ -19,7 +19,7 @@ const InitialLayout = () => {
         const isAuthGroup = segments[0] === "(authenticated)";
 
         if (user && !isAuthGroup) {
-            router.replace("/(authenticated)/");
+            router.replace("/(authenticated)/(tabs)/boards");
         } else if (!user) {
             router.replace("/auth");
         }
