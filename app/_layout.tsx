@@ -1,19 +1,53 @@
-import {Stack} from "expo-router"
-import { GestureHandlerRootView } from "react-native-gesture-handler";
+import {Stack, useRouter, useSegments} from "expo-router";
+import {GestureHandlerRootView} from "react-native-gesture-handler";
+import {AuthProvider, useAuth} from "../context/AuthContext";
+import {useEffect} from "react";
+import {ActivityIndicator, View } from "react-native";
+import { Colors } from "../constants/Colors";
 
 const InitialLayout = () => {
+
+    const router = useRouter();
+
+    const {user, loading} = useAuth();
+    const segments = useSegments();
+
+
+    useEffect(() => {
+        if(loading) return;
+
+        const isAuthGroup = segments[0] === "(authenticated)";
+
+        if (user && !isAuthGroup) {
+            router.replace("/(authenticated)/");
+        } else if (!user) {
+            router.replace("/auth");
+        }
+    }, [user, loading]);
+
+    if(loading) {
+        return (
+            <View style={{flex: 1, justifyContent: "center" , alignItems: "center"}}>
+                <ActivityIndicator size='large' color={Colors.primary}/>
+            </View>
+        )
+    }
+
     return (
         <Stack>
-            <Stack.Screen name="index" options={{headerShown: false}}/>
+            <Stack.Screen name="auth" options={{headerShown: false}}/>
+            <Stack.Screen name="(authenticated)" options={{headerShown: false}}/>
         </Stack>
     );
 }
 
 const RootLayoutNav = () => {
     return (
-        <GestureHandlerRootView>
-            <InitialLayout/>
-        </GestureHandlerRootView>
+        <AuthProvider>
+            <GestureHandlerRootView style={{flex: 1}}>
+                <InitialLayout/>
+            </GestureHandlerRootView>
+        </AuthProvider>
     );
 }
 

@@ -10,7 +10,7 @@ interface AuthContextData {
     signUp : (
         email: string,
         password: string,
-        fistName: string,
+        firstName: string,
         userName?: string,
     ) => Promise<any>;
     signIn: (email: string, password: string) => Promise<any>;
@@ -61,7 +61,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
     const signUp = async (
         email: string,
         password: string,
-        fistName: string,
+        firstName: string,
         userName?: string,
     )=> {
         try {
@@ -70,7 +70,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
                 password,
                 options: {
                     data: {
-                        fistName,
+                        firstName,
                         userName: userName ?? email.split("@")[0]
                     }
                 },
@@ -89,6 +89,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
                 email,
                 password
             });
+            return {data, error}
         } catch (error) {
             console.error("SignIn Error: ", error)
             return {data: null, error};
