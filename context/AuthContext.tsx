@@ -1,6 +1,6 @@
 import {Session, User} from "@supabase/supabase-js";
 import { createContext, ReactNode, useContext, useEffect, useState } from "react";
-import { supabase } from "../utils/superbaseClient";
+import { supabase } from "../utils/supabaseClient";
 
 
 interface AuthContextData {

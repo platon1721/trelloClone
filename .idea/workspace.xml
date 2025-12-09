@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81d8c302-77d1-4668-bd3d-909b2f831abb" name="Changes" comment="" />
+    <list default="true" id="81d8c302-77d1-4668-bd3d-909b2f831abb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/components/DropDownList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/context/SupabaseContext.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(authenticated)/(tabs)/boards/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(authenticated)/(tabs)/boards/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/context/AuthContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/context/AuthContext.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/enums.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/enums.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/superbaseClient.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/supabaseClient.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
