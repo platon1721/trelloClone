@@ -18,6 +18,13 @@ const Layout = () => {
                     ),
                 }}
             />
+            <Stack.Screen
+                name="new-board"
+                options={{
+                    headerShown: false,
+                    presentation: "transparentModal",
+                    animation: "slide_from_bottom",
+                }}/>
         </Stack>
     );
 }

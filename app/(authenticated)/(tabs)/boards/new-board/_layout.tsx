@@ -1,4 +1,7 @@
 import { Stack, useRouter } from "expo-router"
+import { Colors } from "../../../../../constants/Colors";
+import { TouchableOpacity } from "react-native";
+import { Ionicons } from "@expo/vector-icons";
 
 const Layout = () => {
 
@@ -7,9 +10,33 @@ const Layout = () => {
     return (
         <Stack>
             <Stack.Screen name="index"
-                          options={{title: "Board"}}/>
+                          options={{
+                              title: "Board",
+                              headerShadowVisible: false,
+                              headerStyle: {
+                                  backgroundColor: Colors.primary,
+                              },
+                              headerLeft: () => (
+                                  <TouchableOpacity
+                                      onPress={() => router.back()}>
+                                      <Ionicons name="close" size={26} color="white"/>
+                                  </TouchableOpacity>
+                              )
+                          }}/>
             <Stack.Screen name="color-select"
-                          options={{title: "Background"}}/>
+                          options={{
+                              title: "Select Color",
+                              headerShadowVisible: false,
+                              headerStyle: {
+                                  backgroundColor: Colors.primary,
+                              },
+                              headerLeft: () => (
+                                  <TouchableOpacity
+                                      onPress={() => router.back()}>
+                                      <Ionicons name="close" size={26} color="white"/>
+                                  </TouchableOpacity>
+                              )
+                          }}/>
         </Stack>
     )
 }

@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React, {useEffect, useState } from 'react';
 
 import {Text, TextInput, View, StyleSheet, TouchableOpacity   } from 'react-native';
 import { useSupabase } from "../../../../../context/SupabaseContext";
-import {Link, Stack, useRouter } from "expo-router";
+import {Link, Stack, useGlobalSearchParams, useRouter } from "expo-router";
 import { Colors } from "../../../../../constants/Colors";
 import { Ionicons } from "@expo/vector-icons";
+import { DEFAULT_COLOR } from "./color-select";
 
 const Index = () => {
 
@@ -12,7 +13,15 @@ const Index = () => {
     const { createBoard } = useSupabase();
 
     const router = useRouter();
-    const [selectedColor, setSelectedColor] = useState<string>('');
+    const [selectedColor, setSelectedColor] = useState<string>(DEFAULT_COLOR);
+
+    const {bg} = useGlobalSearchParams<{bg? : string}>();
+
+    useEffect(() => {
+        if(bg) {
+            setSelectedColor(bg)
+        }
+    }, [bg]);
 
     const onCreateBoard = async () => {
         await createBoard(boardName, selectedColor);
@@ -24,8 +33,12 @@ const Index = () => {
             <Stack.Screen
                 options={{
                     headerRight: () => (
-                        <TouchableOpacity onPress={onCreateBoard}>
-                            <Text>Create</Text>
+                        <TouchableOpacity
+                            disabled={boardName.trim().length === 0}
+                            onPress={onCreateBoard}>
+                            <Text
+                                style={boardName.trim().length === 0 ? styles.btnTextDisabled : styles.btnText}
+                            >Create</Text>
                         </TouchableOpacity>)
                 }}>
             </Stack.Screen>
@@ -34,7 +47,7 @@ const Index = () => {
                 onChangeText={setBoardName}
                 placeholder="New Board"
                 value={boardName}/>
-            <Link href={"(authenticated/(tabs)/boards/new-board/color-select"}
+            <Link href={"/(authenticated)/(tabs)/boards/new-board/color-select"}
                   asChild>
                 <TouchableOpacity
                     style={styles.btnItem}>
