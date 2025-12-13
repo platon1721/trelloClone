@@ -18,7 +18,7 @@ const Index = () => {
     }, []))
 
     const ListItem = ({item} : {item: Board}) => (
-        <Link href=""
+        <Link href={`/(authenticated)/board/${item.id}`}
             style={styles.listItem}
             key={item.id}
             asChild>
