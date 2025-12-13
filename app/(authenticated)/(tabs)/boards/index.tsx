@@ -32,7 +32,6 @@ const Index = () => {
 
     const loadBoards = async () => {
         const data = await getBoards();
-        console.log("Lauad: " + data.toString());
         setBoards(data);
     }
 
